@@ -1,0 +1,59 @@
+The system is: Linux - 5.15.79.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5de63/fast && gmake[3]: Entering directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_5de63.dir/build.make CMakeFiles/cmTC_5de63.dir/build
+gmake[4]: Entering directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5de63.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5de63.dir/testCCompiler.c.o -c /mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5de63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de63.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5de63.dir/testCCompiler.c.o -o cmTC_5de63 
+gmake[4]: Leaving directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd72e/fast && gmake[3]: Entering directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_bd72e.dir/build.make CMakeFiles/cmTC_bd72e.dir/build
+gmake[4]: Entering directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd72e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_bd72e.dir/testCXXCompiler.cxx.o -c /mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bd72e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd72e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_bd72e.dir/testCXXCompiler.cxx.o -o cmTC_bd72e 
+gmake[4]: Leaving directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/mnt/c/Users/dfulo/pico/projects/blink/build/elf2uf2/CMakeFiles/CMakeTmp'
+
+
+

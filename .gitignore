@@ -1,0 +1,14 @@
+
+/Demo_2/build/*
+/Demo_1/build/*
+
+
+*.hex
+*.uf2
+*.hex
+*.elf
+*.dis
+*.map
+*.bin
+
+setup.txt
